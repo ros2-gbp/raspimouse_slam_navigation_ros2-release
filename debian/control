@@ -1,0 +1,12 @@
+Source: ros-foxy-raspimouse-navigation
+Section: misc
+Priority: optional
+Maintainer: RT Corporation <shop@rt-net.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-ament-cmake, ros-foxy-ament-lint-auto <!nocheck>, ros-foxy-ament-lint-common <!nocheck>, ros-foxy-hls-lfcd-lds-driver, ros-foxy-nav2-bringup, ros-foxy-raspimouse, ros-foxy-raspimouse-slam, ros-foxy-rplidar-ros, ros-foxy-rviz2, ros-foxy-urg-node, ros-foxy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-foxy-raspimouse-navigation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-hls-lfcd-lds-driver, ros-foxy-nav2-bringup, ros-foxy-raspimouse, ros-foxy-raspimouse-slam, ros-foxy-rplidar-ros, ros-foxy-rviz2, ros-foxy-urg-node, ros-foxy-ros-workspace
+Description: Navigation package for Raspberry Pi Mouse
