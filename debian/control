@@ -1,0 +1,12 @@
+Source: ros-foxy-raspimouse-slam
+Section: misc
+Priority: optional
+Maintainer: RT Corporation <shop@rt-net.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-ament-cmake, ros-foxy-ament-lint-auto <!nocheck>, ros-foxy-ament-lint-common <!nocheck>, ros-foxy-hls-lfcd-lds-driver, ros-foxy-joint-state-publisher, ros-foxy-joy-linux, ros-foxy-nav2-map-server, ros-foxy-raspimouse, ros-foxy-raspimouse-description, ros-foxy-raspimouse-ros2-examples, ros-foxy-robot-state-publisher, ros-foxy-rplidar-ros, ros-foxy-rviz2, ros-foxy-slam-toolbox, ros-foxy-urg-node, ros-foxy-xacro, ros-foxy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-foxy-raspimouse-slam
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-hls-lfcd-lds-driver, ros-foxy-joint-state-publisher, ros-foxy-joy-linux, ros-foxy-nav2-map-server, ros-foxy-raspimouse, ros-foxy-raspimouse-description, ros-foxy-raspimouse-ros2-examples, ros-foxy-robot-state-publisher, ros-foxy-rplidar-ros, ros-foxy-rviz2, ros-foxy-slam-toolbox, ros-foxy-urg-node, ros-foxy-xacro, ros-foxy-ros-workspace
+Description: SLAM package for Raspberry Pi Mouse
