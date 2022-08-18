@@ -1,0 +1,12 @@
+Source: ros-foxy-raspimouse-slam-navigation
+Section: misc
+Priority: optional
+Maintainer: RT Corporation <shop@rt-net.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-ament-cmake, ros-foxy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-foxy-raspimouse-slam-navigation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-raspimouse-navigation, ros-foxy-raspimouse-slam, ros-foxy-ros-workspace
+Description: SLAM and navigation packages for Raspberry Pi Mouse V3

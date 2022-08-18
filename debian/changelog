@@ -1,0 +1,9 @@
+ros-foxy-raspimouse-slam-navigation (1.0.0-1focal) focal; urgency=high
+
+  * Adds version
+  * Creates metapackage
+  * Contributors: Shuhei Kozasa
+
+ -- RT Corporation <shop@rt-net.jp>  Thu, 28 Jul 2022 15:00:00 -0000
+
+
