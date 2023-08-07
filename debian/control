@@ -1,0 +1,12 @@
+Source: ros-humble-raspimouse-slam
+Section: misc
+Priority: optional
+Maintainer: RT Corporation <shop@rt-net.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-hls-lfcd-lds-driver, ros-humble-joint-state-publisher, ros-humble-joy-linux, ros-humble-nav2-map-server, ros-humble-raspimouse, ros-humble-raspimouse-description, ros-humble-raspimouse-ros2-examples, ros-humble-robot-state-publisher, ros-humble-rplidar-ros, ros-humble-rviz2, ros-humble-slam-toolbox, ros-humble-urg-node, ros-humble-xacro, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-raspimouse-slam
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-hls-lfcd-lds-driver, ros-humble-joint-state-publisher, ros-humble-joy-linux, ros-humble-nav2-map-server, ros-humble-raspimouse, ros-humble-raspimouse-description, ros-humble-raspimouse-ros2-examples, ros-humble-robot-state-publisher, ros-humble-rplidar-ros, ros-humble-rviz2, ros-humble-slam-toolbox, ros-humble-urg-node, ros-humble-xacro, ros-humble-ros-workspace
+Description: SLAM package for Raspberry Pi Mouse
