@@ -1,0 +1,21 @@
+ros-humble-raspimouse-slam-navigation (2.1.0-1bullseye) bullseye; urgency=high
+
+
+
+ -- RT Corporation <shop@rt-net.jp>  Mon, 04 Mar 2024 15:00:00 -0000
+
+ros-humble-raspimouse-slam-navigation (2.0.0-1bullseye) bullseye; urgency=high
+
+
+
+ -- RT Corporation <shop@rt-net.jp>  Thu, 03 Aug 2023 15:00:00 -0000
+
+ros-humble-raspimouse-slam-navigation (1.0.0-1bullseye) bullseye; urgency=high
+
+  * Adds version
+  * Creates metapackage
+  * Contributors: Shuhei Kozasa
+
+ -- RT Corporation <shop@rt-net.jp>  Thu, 28 Jul 2022 15:00:00 -0000
+
+
