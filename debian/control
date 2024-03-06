@@ -1,0 +1,12 @@
+Source: ros-humble-raspimouse-navigation
+Section: misc
+Priority: optional
+Maintainer: RT Corporation <shop@rt-net.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-hls-lfcd-lds-driver, ros-humble-nav2-bringup, ros-humble-raspimouse, ros-humble-raspimouse-slam, ros-humble-rplidar-ros, ros-humble-rviz2, ros-humble-urg-node, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-raspimouse-navigation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-hls-lfcd-lds-driver, ros-humble-nav2-bringup, ros-humble-raspimouse, ros-humble-raspimouse-slam, ros-humble-rplidar-ros, ros-humble-rviz2, ros-humble-urg-node, ros-humble-ros-workspace
+Description: Navigation package for Raspberry Pi Mouse
