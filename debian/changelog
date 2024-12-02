@@ -1,0 +1,28 @@
+ros-jazzy-raspimouse-slam-navigation (3.0.0-1bookworm) bookworm; urgency=high
+
+  * Support ROS 2 Jazzy (#13 <https://github.com/rt-net/raspimouse_slam_navigation_ros2/issues/13>)
+  * Contributors: Kazushi Kurasawa, YusukeKato
+
+ -- RT Corporation <shop@rt-net.jp>  Wed, 27 Nov 2024 15:00:00 -0000
+
+ros-jazzy-raspimouse-slam-navigation (2.1.0-1bookworm) bookworm; urgency=high
+
+
+
+ -- RT Corporation <shop@rt-net.jp>  Mon, 04 Mar 2024 15:00:00 -0000
+
+ros-jazzy-raspimouse-slam-navigation (2.0.0-1bookworm) bookworm; urgency=high
+
+
+
+ -- RT Corporation <shop@rt-net.jp>  Thu, 03 Aug 2023 15:00:00 -0000
+
+ros-jazzy-raspimouse-slam-navigation (1.0.0-1bookworm) bookworm; urgency=high
+
+  * Adds version
+  * Creates metapackage
+  * Contributors: Shuhei Kozasa
+
+ -- RT Corporation <shop@rt-net.jp>  Thu, 28 Jul 2022 15:00:00 -0000
+
+
